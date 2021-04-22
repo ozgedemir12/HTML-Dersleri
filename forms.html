@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    
+    <form action="/Home/Register">
+    
+    <p>
+        Ad: <input type="text" name="ad" placeholder="Adınızı giriniz" required>
+    </p>
+    <p>
+        Soyad: <input type="text" name="soyad" required>
+    </p>
+    <p>
+        Email <input type="email" name="email" required>
+    </p>
+    <p>
+        Beni Hatırla <input type="checkbox" name="bbenihatirla">
+    </p>
+    <p>
+        Erkek <input type="radio" name="cinsiyet">
+        Kadın <input type="radio" name="cinsiyet">
+    </p>
+    <p>
+        Hobiler <br>
+        Sinema <input type="checkbox" name="hobi">
+        Spor <input type="checkbox" name="hobi">
+        Kitap Okumak <input type="checkbox" name="hobi">
+    </p>
+    <p>
+        <select name="sehir">
+            <option>Ankara</option>
+            <option>Gaziantep</option>
+            <option>İstanbul</option>
+        </select>
+    </p>
+    <p>
+        <select multiple name="sehirler">
+            <option>Ankara</option>
+            <option>Gaziantep</option>
+            <option>İstanbul</option>
+        </select>
+    </p>
+    <input type="submit" value="Kaydet">
+
+
+    </form>
+    
+</body>
+</html>
